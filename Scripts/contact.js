@@ -20,8 +20,9 @@ var P2Content = "<form action='action_page.php'>"
                 + "First name:<br><input type='text' name='firstname'><br>"
                 + "Last name:<br><input type='text' name='lastname'><br>"
                 + "Address:<br><input type='text' name='address'><br>"
-                + ""
-                + "<input type='submit' value='Submit'>"
+                + "Email:<br><input type='url' name='email'><br>"
+                + "Phone Number:<br><input type='text' name='phone'><br><br>"
+                + "<button type='submit' class='btn btn-primary'>Submit</button>"
                 + "</fieldset>"
                 + "</form>";
 
