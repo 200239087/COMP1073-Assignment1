@@ -7,7 +7,6 @@
 var ClickButton = document.getElementById("ClickButton");
 ClickButton.addEventListener("click", Click);
 
-
 var FirstHeading = document.getElementById("FirstHeading");
 var FirstParagraph = document.getElementById("FirstParagraph");
 var SecondParagraph = document.getElementById("SecondParagraph");
@@ -21,7 +20,7 @@ var P2Content = "<img src='../images/Treesharks1.svg' height='240px' width='200p
 FirstHeading.textContent = H1Content;
 FirstParagraph.textContent = P1Content;
 
-
+// Clicking the button will show the second paragraph element and hide the button afterwards
 function Click() {
    SecondParagraph.innerHTML = P2Content;
    ClickButton = document.getElementById("ClickButton").style.visibility = "hidden";
