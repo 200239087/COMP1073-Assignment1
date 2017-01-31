@@ -7,10 +7,12 @@
 var ClickButton = document.getElementById("ClickButton");
 ClickButton.addEventListener("click", Click);
 
-var FirstHeading = document.getElementById("FirstHeading");
+// Objects created from html ids
+var FirstHeading = document.getElementById("FirstHeading"); 
 var FirstParagraph = document.getElementById("FirstParagraph");
 var SecondParagraph = document.getElementById("SecondParagraph");
 
+// Content injection strings
 var H1Content = "I am Ryan Quigley.";
 var P1Content = "I am a developer, designer, writer, and gamer.";
 var P2Content = "<img src='../images/Treesharks1.svg' height='240px' width='200px'>"
